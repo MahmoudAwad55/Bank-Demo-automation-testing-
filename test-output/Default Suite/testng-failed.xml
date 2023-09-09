@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="firstpj(failed)">
+    <classes>
+      <class name="guru99v1">
+        <methods>
+          <include name="SS1"/>
+          <include name="OpenBrwoser"/>
+          <include name="CloseDriver"/>
+        </methods>
+      </class> <!-- guru99v1 -->
+    </classes>
+  </test> <!-- firstpj(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
